@@ -12,5 +12,5 @@
 ## Future improvement
   This is still in a raw version so it does not feel interesting. So, this is will be improve better in future. Since this is still a beginning project, an usage of React and Tailwind in the future will be considering
 ## Contact me
-* Email: [tysonn2231@gmail.com]
-* LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/truong-nguyen-29b45b352/)
+* Email: tysonn2231@gmail.com
+* LinkedIn: https://www.linkedin.com/in/truong-nguyen-29b45b352/
