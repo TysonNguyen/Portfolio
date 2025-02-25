@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyson's - Employment</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "BSzx6h5Kthova6acg",
+  });
+})();
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./query.js"></script>
+  </head>
+  <body>
+    <div id="contact" class="grid-container">
+      <header>
+        <nav>
+          <a href="./index.html">Home</a>
+          <a href="./accomplishment.html">Accomplishments</a>
+        </nav>
+      </header>
+      <div>
+        <p>Please for more information please contact me</p>
+        <form>
+            <label for="name"> Name : </label> <input type="text" name="name" id="name"><br>
+            <label for="email">Email : </label><input type="text" name="email" id="email"><br>
+            <Textarea id="message"></Textarea><br>
+        </form>
+        <button  id="send">Send Email</button>
+        <div>
+            <a href="https://www.linkedin.com/in/truong-nguyen-29b45b352/"><img src="./images/linkedin-logo.png" alt="linkedin-logo"></a>
+            <a href="https://github.com/TysonNguyen"><img src="./images/github-logo.png" alt="github-logo"></a>
+            <a href="https://www.facebook.com/profile.php?id=100029253612265"><img src="./images/facebook-logo.png" alt="facebook-logo"></a>
+        </div>
+      </div>
+      <footer>&copy; From Tyson Nguyen</footer>
+    </div>
+  </body>
+</html>
